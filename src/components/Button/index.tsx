@@ -1,9 +1,17 @@
-type ButtonProps = {
-  children?: string;
-}
+import { useState } from "react"
 
-export function Button(props: ButtonProps) {
+export function Button() {
+  const [count, setCount] = useState(0)
+
+  function increment() {
+    setCount(count + 1)
+  }
+
+
+  
   return (
-    <button>{props.children || 'Default'}</button>
+    <button onClick={increment}>
+      {count}
+    </button>
   )
 }
