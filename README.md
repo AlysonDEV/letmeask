@@ -1,8 +1,20 @@
 # letmeask
-Projeto NWL Together
+Projeto NLW Together
 
 ## Comandos em terminal (um mapa mental para fazer o projeto sozinho)
+
+Iniciando o projeto com o React em typescript
+
 `yarn create react-app letmeask --template typescript`
+
+Adcionando o firebase no projeto
+
+`yarn add firebase`
+
+- Criar um arquivo ".env.local" para configurar as variáveis de ambiente (para projeto local), seguindo a estrutura de "src/services/firebase.ts"
+
+
+
 
 # Getting Started with Create React App
 
